@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.header{
+			display: grid;
+			grid-template-areas: 'itema itema itemb itemc';
+			grid-gap: 10px;
+			padding: 10px;
+			color: black;
+		}
+		.itema{
+			font-size: 30px;
+			grid-area: itema;
+		}
+		.itemb{
+			grid-area: itemb;
+		}
+		.itemc{
+			grid-area: itemc;
+		}
+		.grid-container{
+			display: grid;
+			grid-column-gap: 10px;
+			grid-gap: 10px;
+			text-align: center;
+			grid-template-columns: auto auto auto auto;
+		}
+		.grid-item{
+			color: white;
+			text-align: center;
+			justify-content: space-around;
+
+		}
+		.item1{
+			background-color:black;
+			line-height: 200px;
+			font-size: 30px;
+			width: 330px;
+			height: 200px;
+		}
+		.item2{
+			background-color:#837F7F;
+			font-size: 20px;
+			text-align: center;
+			width: 330px;
+			height: 200px;
+		}
+		.item3{
+			background-color:#C8B7B4;
+			font-size: 20px;
+			text-align: center;
+			width: 330px;
+			height: 200px;
+		}
+		.item5{
+			grid-row: 2;
+			background-color:#C8B7B4;
+			font-size: 20px;
+			text-align: center;
+			width: 330px;
+			height: 200px;
+		}
+		.item7{
+			background-color:#837F7F;
+			font-size: 20px;
+			text-align: center;
+			width: 330px;
+			height: 200px;
+		}
+		.item8{
+			grid-row: 3;
+			grid-column: span 2;
+			background-color:black;
+			font-size: 20px;
+			text-align: center;
+			width: 665px;
+			height: 200px;
+		}
+		.item9{
+			grid-row: 3;
+			grid-column: span 2;
+			background-color:#C8B7B4;
+			font-size: 20px;
+			text-align: center;
+			width: 665px;
+			height: 200px;
+		}
+		.item10,.item11,.item12,.item13{
+			grid-row: 4;
+			background-color: grey;
+			color: white;
+			text-align: center;
+			justify-content: center;
+			font-size: 15px;
+			width: 330px;
+			height: 200px;
+			padding:none;
+			grid-column-gap: none;
+		}
+		b{
+			font-size: 25px;
+		}
+		.footer1{
+			display: grid;
+			background-color: grey;
+		}
+		.footer2{
+			display: grid;
+			background-color: grey;
+			color: white;
+		}
+		.item15{
+			text-align: right;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="itema">ENFOLD</div>
+		<div class="itemb">Home</div>
+		<div class="itemc">Features</div>
+	</div>
+	<div class="grid-container">
+		<div class="grid-item item1">The Grid Row</div>
+		<div class="grid-item item2">An element that allows you to build interesting layout grids</div>
+		<div class="grid-item item3">Grid Rows are fullwidth elements and you can place any number of rows below each other</div>
+		<div class="grid-item item4"> <img src="flowers.jpg" height="200px" width="330px"></div>
+		<div class="grid-item item5">You can set background color and image for each cell individually</div>
+		<div class="grid-item item6"> <img src="water.jpg" height="200px" width="330px"></div>
+		<div class="grid-item item7">A row can hold up to 5 cells that are aligned beside each other</div>
+		<div class="grid-item item8">Use your imagination when it comes to using this element and you can build really interesting stuff</div>
+		<div class="grid-item item9">As seen below (the 4 blue bars) you can even use the element for pure styling <button type="submit">Check our webpage for more details</button></div>
+	</div><br>
+	<div class="footer1">
+		<div class="item10"><b>Intesting Links</b><br><br> xskncjsncsjcn <br> bacbcaicbaicb <br> jscjsbcsfbcbfscb <br></div>
+		<div class="item11"><b>Where to find us</b> <br><br> ncscnskncjkn <br> Los Angeles,CA,United States<br><br> (555)774433<br>jsjcsj@2017.com</div>
+		<div class="item12"><b>More Stuff </b><br><br>ksxksxklaxl <br>sncjkfsnc<br>cjsncjksdncd</div>
+		<div class="item13"><b>Our Office Hours</b><br><br>Mon-Fri : 8:00-19:00<br>Sa:8:00-14:00<br>Su:Closed</div>
+	</div>
+	<div class="footer2">
+	 Copyright
+		<div class="item15"> Terms of Services Legal service</div>
+	</div>
+</body>
+</html>
